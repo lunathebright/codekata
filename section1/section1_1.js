@@ -8,7 +8,7 @@ function solution(numbers) {
   return Math.min(...numbers)
 }
 
-solution([6, 5, 11])
+solution([6, 5, 11])  // 5
 
 // 반복문 사용
 function solution2() {
@@ -21,4 +21,4 @@ function solution2() {
   return min
 }
 
-solution2([6, 5, 11])
+solution2([6, 5, 11])  // 5

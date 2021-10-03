@@ -16,4 +16,4 @@ function solution(numbers) {
   return [min, oddsSum]
 }
 
-solution([12, 77, 38, 35, 53, 92, 85])
+solution([12, 77, 38, 35, 53, 92, 85])  // [35, 250]

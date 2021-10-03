@@ -19,4 +19,4 @@ function solution(date, cars) {
   },0)
 }
 
-solution(3, [25, 23, 11, 47, 53, 17, 33])
+solution(3, [25, 23, 11, 47, 53, 17, 33])  // 3

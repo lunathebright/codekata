@@ -9,5 +9,5 @@ function solution(numbers) {
   return sum - max > max
 }
 
-solution([6, 8, 11])
-solution([13, 33, 17])
+solution([6, 8, 11])  // true
+solution([13, 33, 17])  // false

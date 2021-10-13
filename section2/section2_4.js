@@ -13,4 +13,18 @@ function solution(arr) {
   }, 0);
 }
 
+function solution2(arr) {
+  let count = 0;
+
+  return arr.reduce((acc, crr) => {
+    if (crr === 1) {
+      count++;
+      acc += count;
+    } else count = 0;
+
+    return acc;
+  }, 0);
+}
+
 solution([1, 0, 1, 1, 1, 0, 0, 1, 1, 0]); // 10
+solution2([1, 0, 1, 1, 1, 0, 0, 1, 1, 0]); // 10
